@@ -1,0 +1,19 @@
+# Lets print some shapes to get comfortable with loops
+
+# pyramid
+for i in range(10):
+    print((10-i)*' ' + i*'* ')
+
+# half diamond
+for i in range(10):
+    if i < 6:
+        print(i*' *')
+    else:
+        print((10 - i)*' *')
+
+# full diamond
+for i in range(10):
+    if i < 6:
+        print((10-i)*' ' + i*'* ')
+    else:
+        print((i*' ' + (10 - i)*'* '))
